@@ -1,6 +1,5 @@
 # This is a sample Python script.
-from Graph import create_graph, get_largest_component, get_components, get_comlexity_of_component, \
-    get_complexity_of_components, experiment
+from Graph import experiment_number1_very_sub_critical_simple_graphs
 
 
 # Press ⌃R to execute it or replace it with your code.
@@ -14,6 +13,6 @@ def print_hi(name):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     print_hi('PyCharm')
-    experiment(100, 0.5)
+    experiment_number1_very_sub_critical_simple_graphs()
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
